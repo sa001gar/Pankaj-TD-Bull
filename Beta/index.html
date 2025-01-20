@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj TD Bull - Master Trading Skills</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom CSS  -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">Pankaj TD Bull</div>
+            <div class="menu-toggle" aria-label="Toggle menu">
+                <div class="hamburger"></div>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#courses">Courses</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+                <a href="helpdesk.html">Help Desk</a>
+                <button class="btn mobile-cta">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <h1>Master <span>Trading</span> Skills in Minutes</h1>
+                <p>Join thousands of successful traders who have transformed their trading career with our expert-led courses.</p>
+                <button class="btn">Start Learning</button>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15K+</div>
+                        <div class="stat-label">Active Students</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Expert Courses</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7da3e1f1976f1ad90510cfc9a982d415.jpg-f7eVuP9x64TIHDXjvk9LN7H0MG2EBE.jpeg" alt="Trading Dashboard" style="width: 100%; border-radius: 20px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Pankaj TD Bull?</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Expert Strategies</h3>
+                    <p>Learn proven trading strategies from industry experts with years of experience.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Live Trading</h3>
+                    <p>Experience real-time market analysis and trading sessions with our experts.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3>Market Analysis</h3>
+                    <p>Deep dive into technical and fundamental analysis techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Popular Courses</h2>
+            <div class="swiper course-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="course-card">
+                            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stock-market-concept_23-2149179727.jpg?t=st=1737358098~exp=1737361698~hmac=59e5c2a111d9b65dee7f29eb9e997c50d76516d7af05bc5066ac4bb0bc3f5d9e&w=740" alt="Course" class="course-image">
+                            <div class="course-content">
+                                <span class="course-tag">Beginner</span>
+                                <h3 class="course-title">Trading Fundamentals</h3>
+                                <div class="course-info">
+                                    <span>12 Weeks</span>
+                                    <span>4.9 ⭐</span>
+                                </div>
+                                <button class="btn">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="course-card">
+                            <img src="https://img.freepik.com/premium-vector/stock-market-analysis-concept_23-2148599179.jpg?w=826" alt="Course" class="course-image">
+                            <div class="course-content">
+                                <span class="course-tag">Advanced</span>
+                                <h3 class="course-title">Options Trading Mastery</h3>
+                                <div class="course-info">
+                                    <span>8 Weeks</span>
+                                    <span>4.8 ⭐</span>
+                                </div>
+                                <button class="btn">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                "The strategies I learned from Pankaj TD Bull have completely transformed my trading approach. I'm now consistently profitable!"
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="https://img.freepik.com/free-vector/minimalist-geometric-judith-s-tiktok-profile-picture_742173-12131.jpg?t=st=1737358189~exp=1737361789~hmac=b08ebf811ee8fe8549b54dccd135c9912c3ac306c621ba50081afe71affc973f&w=740" alt="Student">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Full-time Trader</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Basic</h3>
+                        <div class="pricing-price">$49/mo</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Access to 5 courses</li>
+                        <li>Weekly webinars</li>
+                        <li>Community forum access</li>
+                    </ul>
+                    <button class="btn">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Pro</h3>
+                        <div class="pricing-price">$99/mo</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Access to all courses</li>
+                        <li>Daily live trading sessions</li>
+                        <li>1-on-1 mentoring sessions</li>
+                        <li>Advanced analytics tools</li>
+                    </ul>
+                    <button class="btn">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Enterprise</h3>
+                        <div class="pricing-price">Custom</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Customized learning path</li>
+                        <li>Dedicated account manager</li>
+                        <li>On-site training options</li>
+                        <li>API access</li>
+                    </ul>
+                    <button class="btn">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Pankaj TD Bull</h3>
+                <p>Empowering traders with expert knowledge and cutting-edge strategies.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Trading St, Market City, TC 12345</li>
+                    <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                    <li><i class="fas fa-envelope"></i> info@pankajtdbull.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Pankaj TD Bull. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
